@@ -8,3 +8,5 @@ path = kagglehub.dataset_download("robiulhasan21/cervical-cancer-image-largest-d
 
 print("Path to dataset files:", path)
 
+
+df = pd.read_csv(path)
